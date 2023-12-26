@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Inconsolata:wght@500&family=Montserrat:ital@1&family=Sometype+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/*ULOŽIŠTĚ BAREV*/
+:root {
+    --main: #1E1E28;
+    --white: #ffffffe9;
+    --secondary: #f6ac0b;
+    --smoke: rgba(255, 255, 255, 0.7);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+
+    background: var(--main);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+/*MOBILNÍ TELEFONY*/
+@media only screen and (min-width: 360px) and (max-width:960px) {
+/*NAVIGACE*/
+.parallax {
+    background-image: url("../images/poradkova.jpg");
+    min-height: 300px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+.active {
+    font-weight: bold;
+    border-bottom: .15em solid;
+    border-color: var(--secondary);
+}
+
+section {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+  
+/*HLAVNÍ ČÁST*/
+
+section {
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-top: 1em;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.4rem;
+}
+}
+
+
+
+
+
+
+/*POČÍTAČE*/
+@media only screen and (min-width: 961px) {
+/*NAVIGACE*/
+.parallax {
+    background-image: url("../images/poradkova.jpg");
+    min-height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hamburger {
+    display: none;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    padding: .35em;
+}
+
+#myLinks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    padding: .35em;
+}
+
+.topnav a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.8rem;
+    color: var(--smoke);
+    font-weight: normal;
+    padding: .35em;
+    text-decoration: none;
+    gap: 6em;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: .15em solid;
+    border-color: var(--secondary);
+}
+
+section {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+  
+/*HLAVNÍ ČÁST*/
+
+section {
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-top: 1em;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.4rem;
+}
+
+/*MIMO FUNKČNOST*/
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--secondary);
+border-radius: 10px;
+}
+}

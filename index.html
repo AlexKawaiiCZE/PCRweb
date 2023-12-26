@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- Ikona stránky -->
+    <link rel="icon" type="image/x-icon" href="../images/ikonaWebu.png">   
+    <title>Úvod</title>
+</head>
+<body>
+    <div class="parallax">
+        <div class="topnav">
+            <a href="index.html" class="active">Úvod</a>
+
+            <div id="myLinks">
+            <a href="../sites/onas.html">O nás</a>
+            <a href="#contact" >Divize</a>
+            <a href="#about">Galerie</a>
+            <a href="../sites/vedení.html">Vedení</a>
+            <a href="#about">Kontakty</a>
+            </div>
+
+            <div class="hamburger">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, elit et bibendum suscipit, velit nulla facilisis libero, eget posuere tortor ex eu ex. In hac habitasse platea dictumst. Vivamus sit amet malesuada lacus, nec congue libero. Integer eu eros nec nunc varius ultricies id eu quam. Curabitur in nunc id justo pellentesque vestibulum. Curabitur imperdiet ex sit amet nisl vestibulum, ac feugiat velit bibendum.</p>
+            <p>Nullam nec volutpat lacus. Sed eleifend convallis ultrices. Sed auctor, metus in mattis feugiat, dui est bibendum lectus, sit amet feugiat ligula orci non mi. Sed vitae luctus augue. Quisque vitae tortor sit amet purus malesuada commodo. In hac habitasse platea dictumst. Aenean et scelerisque massa. Donec rhoncus velit nec ligula sagittis, id consequat purus gravida.</p>
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, elit et bibendum suscipit, velit nulla facilisis libero, eget posuere tortor ex eu ex."</p>
+            <p>Phasellus ut lectus in ligula suscipit vehicula. Vivamus non malesuada elit. Maecenas tincidunt, justo vel pulvinar fringilla, elit nisl pellentesque purus, et tincidunt nisl urna non arcu. Fusce eu imperdiet lacus. Quisque bibendum turpis non accumsan gravida.</p>
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, elit et bibendum suscipit, velit nulla facilisis libero, eget posuere tortor ex eu ex. In hac habitasse platea dictumst. Vivamus sit amet malesuada lacus, nec congue libero. Integer eu eros nec nunc varius ultricies id eu quam. Curabitur in nunc id justo pellentesque vestibulum. Curabitur imperdiet ex sit amet nisl vestibulum, ac feugiat velit bibendum.</p>
+            <p>Nullam nec volutpat lacus. Sed eleifend convallis ultrices. Sed auctor, metus in mattis feugiat, dui est bibendum lectus, sit amet feugiat ligula orci non mi. Sed vitae luctus augue. Quisque vitae tortor sit amet purus malesuada commodo. In hac habitasse platea dictumst. Aenean et scelerisque massa. Donec rhoncus velit nec ligula sagittis, id consequat purus gravida.</p>
+        </article>
+    </section>
+</body>
+</html>
+
+<!-- Script, který umožňuje funkčnost na telefonu -->
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>

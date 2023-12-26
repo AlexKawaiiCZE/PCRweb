@@ -1,0 +1,94 @@
+/*ULOŽIŠTĚ BAREV*/
+:root {
+    --main: #1E1E28;
+    --white: #ffffffe9;
+    --secondary: #f6ac0b;
+    --smoke: rgba(255, 255, 255, 0.7);
+}
+
+
+section h2 {
+    display: flex;
+    font-size: 4rem;
+    font-family: 'Questrial', sans-serif;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+section p {
+    margin-bottom: 1em;
+}
+
+#karticky {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    overflow: hidden;
+    gap: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+    background-color: var(--white);
+    border-radius: 25px;
+    color: var(--main);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    min-width: 352px;
+}
+
+.card .robloxJméno {
+    font-weight: bold;
+    font-size: 1.8rem;
+    justify-content: flex-start;
+}
+
+.card .pozice {
+    font-size: 1.2rem;
+}
+
+article {
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    justify-content: center;
+}
+
+.MV {
+    color: #040404;
+}
+
+.PP {
+    color: #0e0d0d;
+}
+
+.GP {
+    color: #85081c;
+}
+
+.GM {
+    color: #992D22;
+}
+
+.BG {
+    color: #992D22;
+}
+
+.HD {
+    color: #9887E2;
+}
+
+.JD {
+    color: #9887e2;
+}
